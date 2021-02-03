@@ -16,7 +16,7 @@ Nothing to be done.
 ```
 
 ```bash
-touch cars.py
+> touch cars.py
 ```
 
 ```bash
