@@ -47,4 +47,4 @@ Finished job 0.
 ```
  
  
-![mtcars.png](https://github.com/TatyanaLev/EE283HW4/mtcars.png)
+![mtcars.png](https://github.com/TatyanaLev/EE283HW4/blob/main/mtcars.png)
