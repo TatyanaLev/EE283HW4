@@ -1,6 +1,6 @@
 rule all:
     input:
-        "mtcars.png"
+	    "mtcars.sqlite3", "mtcars.png"
 
 rule r:
     input:
@@ -12,8 +12,13 @@ rule r:
 
 rule py:	
     input:
-        "cars.py"
+        py="cars.py",
+		"mtcars.sqlite3"
     output:
         "mtcars.png"
     shell:
-        "python3 {input}"
+        "python3 {input.py}"
+		
+rule clean:
+    shell:
+        "rm -r mtcars*"
